@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Gem Search</title>
+  <meta name="theme-color" content="#0c0f14">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Gem Search">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="brand"><div class="gem-icon" aria-hidden="true"></div><div><h1>Gem Search</h1><p class="subtitle">Local gem reference with separate primary and notes search.</p></div></div>
+    <div class="install"><button class="btn ghost" id="exportBtn">Export JSON</button><button class="btn primary" id="addBtn">+ Add Gem</button></div>
+  </div>
+</header>
+<main>
+  <section class="controls" aria-label="Search controls">
+    <input id="primarySearch" class="searchbox" type="search" placeholder="Search primary gem info: species, color columns, RI, SG, hardness…" autocomplete="off">
+    <input id="notesSearch" class="searchbox" type="search" placeholder="Search notes only: spectra, fluorescence, characteristics, fracture…" autocomplete="off">
+    <select id="sortSelect" class="select" aria-label="Sort results"><option value="species">Sort by species</option><option value="hardness">Sort by hardness</option><option value="sg">Sort by specific gravity</option><option value="riRange">Sort by refractive index range</option></select>
+  </section>
+  <div class="meta"><span class="pill" id="countPill"></span><span class="pill">Primary search excludes notes</span><span class="pill">New gems save in this browser</span></div>
+  <section id="results" class="grid"></section>
+</main>
+<dialog id="gemDialog">
+  <form method="dialog" id="gemForm">
+    <div class="modal-head"><h2>Add a new gem</h2><button class="btn ghost" value="cancel" type="button" id="closeDialog">Close</button></div>
+    <div class="form" id="formFields"></div>
+    <div class="modal-actions"><button class="btn ghost" type="reset">Clear</button><button class="btn primary" type="submit">Save Gem</button></div>
+  </form>
+</dialog>
+<div class="toast" id="toast"></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
