@@ -1,21 +1,14 @@
 # Gem Search PWA
 
-A local Progressive Web App generated from `Gem Table(2).xlsx`.
+A local Progressive Gem Search Web App.
 
-## How to use locally
+## How to use 
 
-Open `index.html` in a browser. For full offline/PWA behavior, serve the folder from a local web server:
-
-```bash
-cd gem-pwa
-python3 -m http.server 8080
-```
-
-Then open `http://localhost:8080`.
+Open https://plasmuh987.github.io/gem-pwa/ in a browser.
 
 ## iPhone Home Screen
 
-Host the folder or serve it on your local network, open it in Safari, then use **Share → Add to Home Screen**.
+Open the above link in Safari, then use **Share → Add to Home Screen**.
 
 ## Search behavior
 
@@ -27,4 +20,4 @@ Host the folder or serve it on your local network, open it in Safari, then use *
 
 ## Latest update
 
-The in-app gem/logo icon now uses the same image file as the PWA app icon (`icons/icon-192.png`), so the header icon matches the Home Screen icon.
+Release 6.17.26
