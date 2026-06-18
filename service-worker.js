@@ -1,5 +1,5 @@
-const CACHE='gem-search-v6';
-const ASSETS=['./','./index.html','./styles.css','./app.js','./data.js','./manifest.json','./icons/icon-192.png','./icons/icon-512.png'];
+const CACHE='gem-search-v11-single-filter-buttons';
+const ASSETS=['./','./index.html','./styles.css','./app.js','./data.js','./manifest.json','./subtitles.txt','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));
 self.addEventListener('fetch',e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))));
 
