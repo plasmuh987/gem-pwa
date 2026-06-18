@@ -1,15 +1,1 @@
-Replace T in the option menu to TP
 
-Center the letters in the add a gem menu
-Add more transparency options as a primary and secondary options:
-O - Opaque 
-STL - Semi Translucent
-TL - Translucent 
-STP - Semi Transparent
-TP - Transparent
-
-Refractive Index Normal
-Allow Searching within the range of a RI
-
-Add A Random Rotating Subtitle that works from a document that contains a message for example: Why dont you search for a APATITE. It is BERYL nice to see you.
-<div class="brand"><div class="gem-icon" aria-hidden="true"></div><div><h1>Gem Search</h1><p class="subtitle">Local gem reference with separate primary and notes search.</p></div></div>
