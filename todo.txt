@@ -1,8 +1,7 @@
 Replace T in the option menu to TP
 
 Center the letters in the add a gem menu
-
-Add more transparency options primary and a secondary:
+Add more transparency options as a primary and secondary options:
 O - Opaque 
 STL - Semi Translucent
 TL - Translucent 
