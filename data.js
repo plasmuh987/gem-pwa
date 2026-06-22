@@ -1,3639 +1,453 @@
-window.GEM_DATA = [
-  {
-    "Species": "Hematite",
-    "Chemical Comp.": "Iron Oxide\n[Fe2O3]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "",
-    "Color G": "",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "O",
-    "Refractive Index Normal": "2.94-\n3.22",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "AGG",
-    "Crystal System": "Hexagonal",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "",
-    "Specific Gravity": "5.20\n+/- .08",
-    "Phenomena": "",
-    "Characteristics": "Will have a red to brown streak.",
-    "Fracture/Cleavage": "FR: splintery, granular or\nsubconchoidal",
-    "Hardness": "5 - 6.5",
-    "__colors": [
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Syn. Rutile",
-    "Chemical Comp.": "Titanium Oxide\n[TiO2]",
-    "Color C": "",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP",
-    "Refractive Index Normal": "2.61-\n2.90",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "0.287",
-    "Optic Character": "DR U+",
-    "Crystal System": "Tetragonal Double",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "*",
-    "Disp.": "0.33",
-    "Spectra (nm)": "430.0 cutoff in yellow and blue\nstones (**)",
-    "UV Fluorescence": "",
-    "Specific Gravity": "4.26\n+/- .02",
-    "Phenomena": "Spectro",
-    "Characteristics": "Material sometimes has gas bubbles and extreme doubling of back\nfacets and high dispersion",
-    "Fracture/Cleavage": "FR: conchoidal to uneven",
-    "Hardness": "6.5 - 7",
-    "__colors": [
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Diamond",
-    "Chemical Comp.": "Carbon\n[C]",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "*",
-    "Color G 2": "",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "2.417",
-    "Refractive Index Range": "+/- .01",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.044",
-    "Spectra (nm)": "415.5 line in cape series (***)",
-    "UV Fluorescence": "LW: inert - strong\nSW: weaker",
-    "Specific Gravity": "3.52\n+/- .02",
-    "Phenomena": "Spectro",
-    "Characteristics": "High polish, adamantine luster, usually shows no polishing marks, facet\njunctions join to sharp peaks",
-    "Fracture/Cleavage": "FR: splintery, uneven, or chip\nCL: 4 perfect; step-like break",
-    "Hardness": "10",
-    "__colors": [
-      "C",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "W",
-      "black"
-    ]
-  },
-  {
-    "Species": "Cubic Zirconia",
-    "Chemical Comp.": "Zirconium Oxide\n[ZrO2-Y2-O3]",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP",
-    "Refractive Index Normal": "2.2",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.06",
-    "Spectra (nm)": "Varies with color (**)",
-    "UV Fluorescence": "LW & SW: inert -\nmoderate",
-    "Specific Gravity": "5.70\n+/- .2",
-    "Phenomena": "",
-    "Characteristics": "Gas bubbles, strong dispersive power on back facets, shiny girdle, weak\nred fluor short wave",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "8.5",
-    "__colors": [
-      "C",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown"
-    ]
-  },
-  {
-    "Species": "GGG",
-    "Chemical Comp.": "Gadolinium Gallium\nGarnet",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "",
-    "Color G": "",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP",
-    "Refractive Index Normal": "2.03",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.038",
-    "Spectra (nm)": "Varies with color (**)",
-    "UV Fluorescence": "LW: inert - moderate\nSW: moderate - strong",
-    "Specific Gravity": "6.8",
-    "Phenomena": "",
-    "Characteristics": "Gas and flux inclusions, spectra absorption, shiny girdle surface, facet\nabrasion if old, salmon color fluor short wave",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "8.5",
-    "__colors": [
-      "C"
-    ]
-  },
-  {
-    "Species": "YAG",
-    "Chemical Comp.": "Yttrium Aluminum\nGarnet",
-    "Color C": "",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP",
-    "Refractive Index Normal": "1.83",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.028",
-    "Spectra (nm)": "Varies with color (**)",
-    "UV Fluorescence": "LW & SW: inert - strong",
-    "Specific Gravity": "4.55\n+/- .05",
-    "Phenomena": "Spectro",
-    "Characteristics": "Gas bubbles, polishing lines, some material has shiny girdle surface",
-    "Fracture/Cleavage": "FR: conchoidal to uneven",
-    "Hardness": "8",
-    "__colors": [
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Strontium Titanate",
-    "Chemical Comp.": "Strontium Titanium\nOxide",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "",
-    "Color G": "",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP",
-    "Refractive Index Normal": "2.409",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.109",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "LW & SW: generally\ninert",
-    "Specific Gravity": "5.13\n+/- .02",
-    "Phenomena": "",
-    "Characteristics": "Poor polish, scratches and polishing marks, gas bubbles, and extremely\nhigh dispersion",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "6",
-    "__colors": [
-      "C"
-    ]
-  },
-  {
-    "Species": "Zircon High",
-    "Chemical Comp.": "Zirconium Silicate\n[ZrSiO4]",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP-STP",
-    "Refractive Index Normal": "1.925-\n1.984",
-    "Refractive Index Range": "+/- .04",
-    "Refractive Index Birefri.": "0.059",
-    "Optic Character": "DR U+",
-    "Crystal System": "Tetragonal Double",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "*",
-    "Pleochroism M": "*",
-    "Pleochroism W": "*",
-    "Disp.": "0.038",
-    "Spectra (nm)": "653.5 line key (***)",
-    "UV Fluorescence": "LW & SW: inert -\nmoderate",
-    "Specific Gravity": "4.7\n+/- .03",
-    "Phenomena": "C",
-    "Characteristics": "Strong doubling, abraded facet edges, sub-adamantine luster, usually\nappears cloudy with natural included crystals",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "7.5",
-    "__colors": [
-      "C",
-      "red",
-      "orange",
-      "yellow",
-      "blue",
-      "violet",
-      "brown"
-    ]
-  },
-  {
-    "Species": "Andradite Garnet",
-    "Chemical Comp.": "Calcium Iron Silicate\n[Ca3Fe2(SiO4)3]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.875",
-    "Refractive Index Range": "+/- .02",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.057",
-    "Spectra (nm)": "Var. Demantoid: 440.0 band;\nchrome lines possible",
-    "UV Fluorescence": "inert",
-    "Specific Gravity": "3.84\n+/- .03",
-    "Phenomena": "C (rare)",
-    "Characteristics": "\"Horse tail\" inclusions caused by asbestos fibers, green variety displays\na noticeable dispersion",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "6.5 - 7",
-    "__colors": [
-      "yellow",
-      "green",
-      "black"
-    ]
-  },
-  {
-    "Species": "Zircon Low",
-    "Chemical Comp.": "Zirconium Silicate\n[ZrSiO4]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "",
-    "Color G": "green",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.810-\n1.815",
-    "Refractive Index Range": "+/- .02",
-    "Refractive Index Birefri.": ".002\n.005",
-    "Optic Character": "DR U+",
-    "Crystal System": "Tetragonal Double",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "*",
-    "Disp.": "—",
-    "Spectra (nm)": "653.5 line key (***)",
-    "UV Fluorescence": "LW & SW: inert -\nmoderate",
-    "Specific Gravity": "4.0\n+/- .07",
-    "Phenomena": "C",
-    "Characteristics": "Usually shows repeated twinning (silk like crystals), little doubling,\nusually green only",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "6 - 7",
-    "__colors": [
-      "green"
-    ]
-  },
-  {
-    "Species": "Spessartite Garnet",
-    "Chemical Comp.": "Magnesium Aluminum\nSilicate\n[Mn3Al2(SiO4)3]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP",
-    "Refractive Index Normal": "1.8",
-    "Refractive Index Range": "+/- .01",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.027",
-    "Spectra (nm)": "412.0 & 430.0 bands key; also\n461.0, 488.0, 505.0 lines",
-    "UV Fluorescence": "inert",
-    "Specific Gravity": "4.15\n+/- .03",
-    "Phenomena": "Spectro",
-    "Characteristics": "Small included crystals of low relief",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "7.5",
-    "__colors": [
-      "orange",
-      "yellow",
-      "brown"
-    ]
-  },
-  {
-    "Species": "Zoisite",
-    "Chemical Comp.": "Calcium Aluminum\nHydroxy Silicate\n[Ca2Al3(SiO4)3OH]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "",
-    "Color Y": "",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.691-\n1.714",
-    "Refractive Index Range": "+/- .023",
-    "Refractive Index Birefri.": "0.023",
-    "Optic Character": "DR B+ or AGG",
-    "Crystal System": "Orthorhombic\ndouble",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "*",
-    "Pleochroism S": "*\nB",
-    "Pleochroism M": "V",
-    "Pleochroism W": "C",
-    "Disp.": "0.021",
-    "Spectra (nm)": "varies with color (***)",
-    "UV Fluorescence": "inert",
-    "Specific Gravity": "3.30\n+/- .01",
-    "Phenomena": "C (rare)",
-    "Characteristics": "Displays strong trichroism",
-    "Fracture/Cleavage": "FR: conchoidal to uneven\nCL: 1 perfect",
-    "Hardness": "6 - 7",
-    "__colors": [
-      "red",
-      "green",
-      "blue",
-      "violet"
-    ]
-  },
-  {
-    "Species": "Almandite Garnet",
-    "Chemical Comp.": "Iron Aluminum Silicate\n[Fe3Al2(SiO4)3]",
-    "Color C": "",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "",
-    "Color G": "",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP-STL",
-    "Refractive Index Normal": "1.79",
-    "Refractive Index Range": "+ .031\n- .029",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.024",
-    "Spectra (nm)": "505.0, 525.0, 575.0 lines key\n(***)",
-    "UV Fluorescence": "inert",
-    "Specific Gravity": "4.05\n+/- .12",
-    "Phenomena": "A",
-    "Characteristics": "Intersecting needle like crystals, small included crystals",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "7.5",
-    "__colors": [
-      "purple",
-      "red",
-      "orange"
-    ]
-  },
-  {
-    "Species": "Corundum",
-    "Chemical Comp.": "Aluminum Oxide\n[Al2O3]",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.762-\n1.77",
-    "Refractive Index Range": "+ .008\n- .003",
-    "Refractive Index Birefri.": "0.008",
-    "Optic Character": "DR U-",
-    "Crystal System": "Trigonal double",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "*",
-    "Pleochroism M": "*",
-    "Pleochroism W": "*",
-    "Disp.": "0.018",
-    "Spectra (nm)": "Varies with color\n(***)",
-    "UV Fluorescence": "LW & SW: inert - strong",
-    "Specific Gravity": "4.0\n+/- .03",
-    "Phenomena": "A, CC, C (rare)",
-    "Characteristics": "Parting due to twinning and straight line color zoning, finger print\ninclusions, included crystals, fine silk rutile needles",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "9",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Syn. Corundum",
-    "Chemical Comp.": "Aluminum Oxide\n[Al2O3]",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.762-\n1.77",
-    "Refractive Index Range": "+ .005\n- .003",
-    "Refractive Index Birefri.": "0.008",
-    "Optic Character": "DR U-",
-    "Crystal System": "Trigonal double",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "*",
-    "Pleochroism M": "*",
-    "Pleochroism W": "*",
-    "Disp.": "0.018",
-    "Spectra (nm)": "Varies with color\n(***)",
-    "UV Fluorescence": "LW & SW: inert - strong",
-    "Specific Gravity": "4.0\n+/- .03",
-    "Phenomena": "A, CC, C (rare)",
-    "Characteristics": "Gas bubbles, curved striae, curved color banding",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "9",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Rhodolite Garnet",
-    "Chemical Comp.": "Iron Aluminum Silicate\n[R3M2(SiO4)3]",
-    "Color C": "",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "",
-    "Color G": "",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP",
-    "Refractive Index Normal": "1.76",
-    "Refractive Index Range": "+/- .01",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.026",
-    "Spectra (nm)": "505.0, 525.0, 575.0 lines key\n(***)",
-    "UV Fluorescence": "inert",
-    "Specific Gravity": "3.84\n+/- .1",
-    "Phenomena": "Spectro",
-    "Characteristics": "Short stubby crystals of low relief, needle like rutile crystals in higher RI\nspecimens",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "7.5",
-    "__colors": [
-      "purple",
-      "red",
-      "orange"
-    ]
-  },
-  {
-    "Species": "Pyrope Garnet",
-    "Chemical Comp.": "Magnesium Aluminum\nSilicate\n[Mg3Al2(SiO4)3]",
-    "Color C": "",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "",
-    "Color Y": "",
-    "Color G": "",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP",
-    "Refractive Index Normal": "1.746",
-    "Refractive Index Range": "+ .014\n- .026",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.027",
-    "Spectra (nm)": "Broad band at 548.0; line at\n503.0",
-    "UV Fluorescence": "inert",
-    "Specific Gravity": "3.78\n+ .04    -\n.16",
-    "Phenomena": "Spectro",
-    "Characteristics": "Short stubby crystals of low relief, needle like rutile crystals in higher RI\nspecimens",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "7 - 7.5",
-    "__colors": [
-      "purple",
-      "red"
-    ]
-  },
-  {
-    "Species": "Chrysoberyl",
-    "Chemical Comp.": "Beryllium Aluminum\nOxide\n[BeAl2O4]",
-    "Color C": "",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.746-\n1.755",
-    "Refractive Index Range": "+/- .005",
-    "Refractive Index Birefri.": "0.009",
-    "Optic Character": "DR B+",
-    "Crystal System": "Orthorhombic\ndouble",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "*",
-    "Pleochroism S": "*",
-    "Pleochroism M": "*",
-    "Pleochroism W": "*",
-    "Disp.": "0.015",
-    "Spectra (nm)": "Varies with color (***)",
-    "UV Fluorescence": "LW & SW: inert - weak",
-    "Specific Gravity": "3.73\n+/- .02",
-    "Phenomena": "C, CC",
-    "Characteristics": "Silk like inclusions, fingerprints",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "8.5",
-    "__colors": [
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "brown"
-    ]
-  },
-  {
-    "Species": "Grossularite Garnet",
-    "Chemical Comp.": "Calcium Aluminum\nSilicate\n[Ca3Al2(SiO4)3]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP-STL",
-    "Refractive Index Normal": "1.74",
-    "Refractive Index Range": "+.020\n-.010",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.028",
-    "Spectra (nm)": "Varies with color\n(***)",
-    "UV Fluorescence": "LW & SW: inert -\nmoderate",
-    "Specific Gravity": "3.61\n+ .12\n- .27",
-    "Phenomena": "Spectro",
-    "Characteristics": "Small dark inclusions in green variety, short stubby crystals of low relief,\n\"heat wave\" effect in Hessonite Variety",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "7.5",
-    "__colors": [
-      "orange",
-      "yellow",
-      "green",
-      "brown"
-    ]
-  },
-  {
-    "Species": "Syn. Spinel",
-    "Chemical Comp.": "Magnesium Aluminum\nOxide\n[MgAl2O4]",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.73",
-    "Refractive Index Range": "+/- .01",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.02",
-    "Spectra (nm)": "Varies with color\n(***)",
-    "UV Fluorescence": "LW & SW: inert - strong",
-    "Specific Gravity": "3.64\n+ .02\n- .12",
-    "Phenomena": "CC",
-    "Characteristics": "Gas bubbles, noticeable anomalous double refraction",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "8",
-    "__colors": [
-      "C",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet"
-    ]
-  },
-  {
-    "Species": "Spinel",
-    "Chemical Comp.": "Magnesium Aluminum\nOxide\n[MgAl2O4]",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.718",
-    "Refractive Index Range": "+.017\n-.008",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.02",
-    "Spectra (nm)": "Varies with color\n(***)",
-    "UV Fluorescence": "LW: inert - strong\nSW: inert - weak",
-    "Specific Gravity": "3.60\n+ .30    - .03",
-    "Phenomena": "CC, A (rare)",
-    "Characteristics": "Clouds of included octahedral crystals of spinel",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "8",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Diopside",
-    "Chemical Comp.": "Calcium Magnesium \nSilicate\n[CaMg(SiO3)2]",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.675-\n1.701\n1.68",
-    "Refractive Index Range": "+ .028\n- .010",
-    "Refractive Index Birefri.": "0.024",
-    "Optic Character": "DR B+ or AGG",
-    "Crystal System": "Monoclinic double",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "*",
-    "Pleochroism M": "*",
-    "Pleochroism W": "*",
-    "Disp.": "",
-    "Spectra (nm)": "505.0 line common, chrome\nlines possible (*** ***)",
-    "UV Fluorescence": "",
-    "Specific Gravity": "3.29\n+/- .03",
-    "Phenomena": "A, C",
-    "Characteristics": "Some varieties resemble peridot, black variety resemble black star\nsapphire",
-    "Fracture/Cleavage": "FR: uneven to conchoidal\nCL: 2 perfect",
-    "Hardness": "5 - 6",
-    "__colors": [
-      "C",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "black"
-    ]
-  },
-  {
-    "Species": "Jadelite",
-    "Chemical Comp.": "Sodium Aluminumn\nSilicate\n[NaAl(SiO3)2]",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "STP-O",
-    "Refractive Index Normal": "1.66-\n1.68",
-    "Refractive Index Range": "+/- .008",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "AGG",
-    "Crystal System": "Monoclinic\n(aggregate)",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.02",
-    "Spectra (nm)": "437.0 line, chrome lines\npossible in green material (*)",
-    "UV Fluorescence": "LW & SW: inert - strong",
-    "Specific Gravity": "3.34\n+/- .03",
-    "Phenomena": "Spectro",
-    "Characteristics": "Greasy to waxy luster, excellent toughness",
-    "Fracture/Cleavage": "FR: granular to splintery",
-    "Hardness": "6.5 - 7",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Peridot",
-    "Chemical Comp.": "Calcium Magnesium\nSilicate\n[(MgFe)2SiO4]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP",
-    "Refractive Index Normal": "1.654-\n1.69",
-    "Refractive Index Range": "+/- .02",
-    "Refractive Index Birefri.": "0.038\nBB",
-    "Optic Character": "DR B+",
-    "Crystal System": "Orthorhombic\ndouble",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "*",
-    "Pleochroism W": "",
-    "Disp.": "0.017",
-    "Spectra (nm)": "457.0, 477.0, 497.0 lines (**)",
-    "UV Fluorescence": "inert",
-    "Specific Gravity": "3.34\n+ .14   -.03",
-    "Phenomena": "Spectro",
-    "Characteristics": "Strong doubling of back facets, dark center \"lily pad\" type inclusions",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "6.5 - 7",
-    "__colors": [
-      "yellow",
-      "green",
-      "brown"
-    ]
-  },
-  {
-    "Species": "Spodumene",
-    "Chemical Comp.": "Lithium Aluminum\nSilicate\n[LiAJ(SiO3)2]",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "",
-    "Transp.": "TP",
-    "Refractive Index Normal": "1.66-\n1.675",
-    "Refractive Index Range": "+/- .005",
-    "Refractive Index Birefri.": "0.015",
-    "Optic Character": "DR B+",
-    "Crystal System": "Monoclinic (double)",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "*",
-    "Pleochroism S": "*",
-    "Pleochroism M": "*",
-    "Pleochroism W": "*",
-    "Disp.": "",
-    "Spectra (nm)": "Varies with color (***)",
-    "UV Fluorescence": "LW inert - strong\nSW weaker",
-    "Specific Gravity": "3.18\n+/- .03",
-    "Phenomena": "Spectro",
-    "Characteristics": "Extreme pronounced cleavage in two directions",
-    "Fracture/Cleavage": "FR: uneven to splintery\nCL: 2 perfect",
-    "Hardness": "6 - 7",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "gray"
-    ]
-  },
-  {
-    "Species": "Malachite",
-    "Chemical Comp.": "Hydrous Coppper\nCarbonate\n[CuCO3,CU(OH)2]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "",
-    "Color G": "green",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "black",
-    "Transp.": "O",
-    "Refractive Index Normal": "1.66-\n1.91",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": ".254 BB",
-    "Optic Character": "AGG",
-    "Crystal System": "Monoclinic (Opaque)",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "inert",
-    "Specific Gravity": "3.95\n+ .15   -.70",
-    "Phenomena": "A (occasionally in light fibrous areas)",
-    "Characteristics": "Resembles banded agate, displays two shades of green color, common\nto find with blue azurite",
-    "Fracture/Cleavage": "FR: uneven to splintery",
-    "Hardness": "3.5 - 4",
-    "__colors": [
-      "green",
-      "black"
-    ]
-  },
-  {
-    "Species": "Jet",
-    "Chemical Comp.": "Carbon\n[C]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "",
-    "Color G": "",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "black",
-    "Transp.": "STL-O",
-    "Refractive Index Normal": "1.66",
-    "Refractive Index Range": "+/- .02",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Amorphous Single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.016",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "inert",
-    "Specific Gravity": "1.33",
-    "Phenomena": "",
-    "Characteristics": "Smell of burning coal when heated",
-    "Fracture/Cleavage": "FR: dull to greasy conchoidal",
-    "Hardness": "2.5 - 4",
-    "__colors": [
-      "black"
-    ]
-  },
-  {
-    "Species": "Apatite",
-    "Chemical Comp.": "Calcium Fluophosphate\n[Ca5(PO4)3F]",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP-TL",
-    "Refractive Index Normal": "1.675-\n1.707",
-    "Refractive Index Range": "+ 0.004\n - 0.013",
-    "Refractive Index Birefri.": "0.030",
-    "Optic Character": "DR U-",
-    "Crystal System": "Hexagonal double",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "*",
-    "Pleochroism M": "*",
-    "Pleochroism W": "*",
-    "Disp.": "",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "LW & SW: inert - weak",
-    "Specific Gravity": "3.18\n+/- .02",
-    "Phenomena": "Spectro\nChatoyancy",
-    "Characteristics": "Can resemble tourmaline but has a weak birefringence",
-    "Fracture/Cleavage": "FR: conchoidal - uneven",
-    "Hardness": "5",
-    "__colors": [
-      "C",
-      "red",
-      "yellow",
-      "green",
-      "blue"
-    ]
-  },
-  {
-    "Species": "Coral",
-    "Chemical Comp.": "Calcium & Magnesium\nCarbonate",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "",
-    "Color G": "",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "black",
-    "Transp.": "STL-O",
-    "Refractive Index Normal": "1.675-\n1.708",
-    "Refractive Index Range": "+ .085\n - .070",
-    "Refractive Index Birefri.": ".172 BB",
-    "Optic Character": "AGG",
-    "Crystal System": "Aggregate",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "LW & SW: inert - strong",
-    "Specific Gravity": "2.65\n+/- .05",
-    "Phenomena": "",
-    "Characteristics": "Dull luster, wavy parallel lines or fibers",
-    "Fracture/Cleavage": "FR: dull conchoidal to uneven",
-    "Hardness": "3.5 - 4",
-    "__colors": [
-      "red",
-      "orange",
-      "blue",
-      "violet",
-      "brown",
-      "black"
-    ]
-  },
-  {
-    "Species": "Bone",
-    "Chemical Comp.": "",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TL-O",
-    "Refractive Index Normal": "1.675-\n1.709",
-    "Refractive Index Range": "+/- .020",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "AGG",
-    "Crystal System": "Aggregate",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "",
-    "Specific Gravity": "2.00\n+/- .15",
-    "Phenomena": "",
-    "Characteristics": "Resembles ivory but SG is higher, contains minute hollow tubes",
-    "Fracture/Cleavage": "",
-    "Hardness": "2.5 - 3",
-    "__colors": [
-      "C",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Dental Ivory",
-    "Chemical Comp.": "Calcium Phosphate &\nCollegen w\\ Ellastin",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TL-O",
-    "Refractive Index Normal": "1.675-\n1.710",
-    "Refractive Index Range": "-.005",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "AGG",
-    "Crystal System": "Aggregate",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "LW & SW: weak to\nstrong whitish blue",
-    "Specific Gravity": "1.80\n+/- .20",
-    "Phenomena": "Fluor",
-    "Characteristics": "Material usually turns yellow with age",
-    "Fracture/Cleavage": "FR: splintery",
-    "Hardness": "2.5",
-    "__colors": [
-      "C",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Pearl",
-    "Chemical Comp.": "Calcium Carbonate\n[CaCO3]",
-    "Color C": "",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TL-O",
-    "Refractive Index Normal": "1.675-\n1.711",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": ".155 BB",
-    "Optic Character": "AGG",
-    "Crystal System": "Aggregate",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "Varies widely (**)",
-    "UV Fluorescence": "LW & SW: inert - strong",
-    "Specific Gravity": "2.70\n+ .15   -.02",
-    "Phenomena": "O",
-    "Characteristics": "Feels rough to edge of teeth, displays orient with one body color and\novertone of another color",
-    "Fracture/Cleavage": "FR: uneven; step-like break",
-    "Hardness": "2.5 - 4",
-    "__colors": [
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Shell",
-    "Chemical Comp.": "Calcium Carbonate\n[CaCO3]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TL-O",
-    "Refractive Index Normal": "1.675-\n1.712",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "1.55 BB",
-    "Optic Character": "AGG",
-    "Crystal System": "Aggregate",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "*",
-    "Pleochroism S": "*\naR",
-    "Pleochroism M": "G",
-    "Pleochroism W": "C",
-    "Disp.": "",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "LW & SW: inert -\nmoderate",
-    "Specific Gravity": "2.68\n+/- .10",
-    "Phenomena": "O",
-    "Characteristics": "Back side appears concave, used for cameos, has an irregular fibrous\nappearance",
-    "Fracture/Cleavage": "FR: uneven to splintery",
-    "Hardness": "3.5",
-    "__colors": [
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Andalusite",
-    "Chemical Comp.": "Aluminum Silicate\n[Al2SiO5]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.634-\n1.643",
-    "Refractive Index Range": "+/- .005",
-    "Refractive Index Birefri.": "0.008",
-    "Optic Character": "DR B- or AGG",
-    "Crystal System": "Orthorhombic\ndouble",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "*",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.017",
-    "Spectra (nm)": "Varies with color (*)",
-    "UV Fluorescence": "LW: inert\nSW: inert - moderate",
-    "Specific Gravity": "3.17\n+/- .04",
-    "Phenomena": "Spectro",
-    "Characteristics": "Strong pleochroism with weak birefringence",
-    "Fracture/Cleavage": "FR: uneven to subconchoidal\nCL: 1 distinct",
-    "Hardness": "7.5",
-    "__colors": [
-      "red",
-      "yellow",
-      "green",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Tourmaline",
-    "Chemical Comp.": "Complex Borosilicate\n[HgAl3(B,OH)2Si4O19]",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.624-\n1.644",
-    "Refractive Index Range": "+/- .006",
-    "Refractive Index Birefri.": "0.02 - 0.04",
-    "Optic Character": "DR U-",
-    "Crystal System": "Trigonal double",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "*",
-    "Disp.": "0.014",
-    "Spectra (nm)": "Varies with color (***)",
-    "UV Fluorescence": "LW & SW: inert - weak",
-    "Specific Gravity": "3.06\n+ .15   -.05",
-    "Phenomena": "C, CC (rare)",
-    "Characteristics": "Color zoning, long irregular thread-like liquid and gas inclusions",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "7 - 7.5",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Topaz",
-    "Chemical Comp.": "Aluminum Fluosilicate\n[Al(F,OH)2SiO4]",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP",
-    "Refractive Index Normal": "1.619-\n1.627",
-    "Refractive Index Range": "+/- .012",
-    "Refractive Index Birefri.": "0.007 - 0.010",
-    "Optic Character": "DR B+",
-    "Crystal System": "Orthorhombic\ndouble",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "Varies with color (***)",
-    "UV Fluorescence": "LW: inert - weak\nSW: inert - moderate",
-    "Specific Gravity": "3.53\n+/- .04",
-    "Phenomena": "Spectro",
-    "Characteristics": "Liquid and gas filled inclusions",
-    "Fracture/Cleavage": "FR: conchoidal\nCL: 1 perfect",
-    "Hardness": "8",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown"
-    ]
-  },
-  {
-    "Species": "Turqouise",
-    "Chemical Comp.": "Hydrous Phosphate of\nCopper & Aluminum\n[Cu,O3AL2O3/\n2P2O5/9H2O]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "STL-O",
-    "Refractive Index Normal": "1.61-\n1.65\n1.60",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "AGG",
-    "Crystal System": "Triclinic (aggregate\nOpaque)",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "420.0 & 432.0 bands (**)",
-    "UV Fluorescence": "LW: inert - weak\nSW: inert",
-    "Specific Gravity": "2.76\n+ .03   -.45",
-    "Phenomena": "Spectro",
-    "Characteristics": "Often contains a light brown to black matrix and pyrite inclusions",
-    "Fracture/Cleavage": "FR: dull to waxy, conchoidal to\ngranular",
-    "Hardness": "5 - 6",
-    "__colors": [
-      "green",
-      "blue"
-    ]
-  },
-  {
-    "Species": "Nephrite Jade",
-    "Chemical Comp.": "Calcium Magnesium\nHydroxy Silicate\n[Ca2(Mg,Fe)5(OH)2\n(Si4O11)2]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "*",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TL-O",
-    "Refractive Index Normal": "1.606-\n1.65\nblack 1.63",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "AGG",
-    "Crystal System": "Monoclinic \n(aggregate)",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "*",
-    "Pleochroism M": "*",
-    "Pleochroism W": "*",
-    "Disp.": "0.014",
-    "Spectra (nm)": "500.0 line (*)",
-    "UV Fluorescence": "inert",
-    "Specific Gravity": "2.95\n+/- .05",
-    "Phenomena": "Spectro",
-    "Characteristics": "Usually mottled appearance, tough durable material",
-    "Fracture/Cleavage": "FR: splintery to granular",
-    "Hardness": "6 - 6.5",
-    "__colors": [
-      "orange",
-      "yellow",
-      "green",
-      "brown",
-      "W",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Beryl",
-    "Chemical Comp.": "Beryllium Aluminum\nSilicate\n[BeAl2(SiO3)6]",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "",
-    "Color B": "blue",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.577-\n1.583",
-    "Refractive Index Range": "+/- .017",
-    "Refractive Index Birefri.": "0.006",
-    "Optic Character": "DR U-",
-    "Crystal System": "Hexagonal double",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "*",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "Varies with color\n(****)",
-    "UV Fluorescence": "LW & SW: inert - strong",
-    "Specific Gravity": "2.72\n+ .12\n-.05",
-    "Phenomena": "C, A (rare)",
-    "Characteristics": "Emerald may have three phase inclusions of a solid, liquid, and gas.\nAquamarine may have needles",
-    "Fracture/Cleavage": "FR: conchoidal to uneven",
-    "Hardness": "7.5 - 8",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "blue",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Syn Emerald",
-    "Chemical Comp.": "Beryllium Aluminum\nSilicate\n[BeAl2(SiO3)6]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "",
-    "Color G": "green",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP",
-    "Refractive Index Normal": "1.561-\n1.573",
-    "Refractive Index Range": "+.008\n-.003",
-    "Refractive Index Birefri.": "0.004",
-    "Optic Character": "DR U-",
-    "Crystal System": "Hexagonal double",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "Same as natural\n(*** ***)",
-    "UV Fluorescence": "LW & SW: inert - strong",
-    "Specific Gravity": "2.66\n+/- .015",
-    "Phenomena": "",
-    "Characteristics": "Usually whispy veil-like inclusions and may contain 2-phase like\ninclusions",
-    "Fracture/Cleavage": "FR: conchoidal to uneven",
-    "Hardness": "7.5 - 8",
-    "__colors": [
-      "green"
-    ]
-  },
-  {
-    "Species": "Serpentine",
-    "Chemical Comp.": "Hydrous Magnesium\nSilicate\n[Mg3Si2O5(OH)4]",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "STP-O",
-    "Refractive Index Normal": "1.560-\n1.563",
-    "Refractive Index Range": "+ .02\n - .07",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "AGG",
-    "Crystal System": "Monoclinic aggregate",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.014",
-    "Spectra (nm)": "(*)",
-    "UV Fluorescence": "LW: inert - weak",
-    "Specific Gravity": "2.57\n+/- .06",
-    "Phenomena": "Spectro",
-    "Characteristics": "Used as a jade substitute, separated by low refractive index and specific\ngravity",
-    "Fracture/Cleavage": "FR: granular to uneven; may be\nsubconchoidal",
-    "Hardness": "2.5 - 4",
-    "__colors": [
-      "C",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Labradorite\n(Plagioclase\nFeldspar)",
-    "Chemical Comp.": "Sodium Aluminum\nSilicate Albite\n[NaAlSi3O8]",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "",
-    "Color Y": "yellow",
-    "Color G": "",
-    "Color B": "blue",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.559-\n1.568",
-    "Refractive Index Range": "+/- .004",
-    "Refractive Index Birefri.": "0.009",
-    "Optic Character": "DR B+",
-    "Crystal System": "Triclinic double",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.014",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "LW: inert - weak",
-    "Specific Gravity": "2.70\n+/- .05",
-    "Phenomena": "Av, L, A, C (rare)",
-    "Characteristics": "",
-    "Fracture/Cleavage": "FR: uneven to splintery\nCL: 1 perfect, 1 distinct",
-    "Hardness": "6",
-    "__colors": [
-      "C",
-      "red",
-      "yellow",
-      "blue",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Quartz",
-    "Chemical Comp.": "Silicon Diox\n[SiO2]",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "*",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.544-\n1.553",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "0.009",
-    "Optic Character": "DR U+ or AGG",
-    "Crystal System": "Trigonal double",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "Var. Aventurine (***)",
-    "UV Fluorescence": "LW & SW: inert - weak",
-    "Specific Gravity": "2.66\n+/- .01",
-    "Phenomena": "A, Av, C, I",
-    "Characteristics": "May show negative crystals, many times will have an uneven color\ndistribution, may contain rutile or tourmaline",
-    "Fracture/Cleavage": "FR: conchoidal, uneven, or\nsplintery",
-    "Hardness": "7",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "W",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "lolite\n(Cordierite)",
-    "Chemical Comp.": "Magnesium Aluminum\nSilicate\n[(Mg,Fe)2Al4Si5O18]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "",
-    "Color G": "",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP-TL",
-    "Refractive Index Normal": "1.542-\n1.551",
-    "Refractive Index Range": "+ 0.045\n - 0.01",
-    "Refractive Index Birefri.": "0.008",
-    "Optic Character": "DR B-",
-    "Crystal System": "Orthorhombic\ndouble",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "0.011",
-    "Spectra (nm)": "(*)",
-    "UV Fluorescence": "inert",
-    "Specific Gravity": "2.61\n+/- .05",
-    "Phenomena": "A, Av, C (rare)",
-    "Characteristics": "Extreme pleochroism",
-    "Fracture/Cleavage": "FR: uneven to conchoidal\nCL: 1 distinct",
-    "Hardness": "7 - 7.5",
-    "__colors": [
-      "blue",
-      "violet",
-      "brown"
-    ]
-  },
-  {
-    "Species": "Amber",
-    "Chemical Comp.": "Resin Mixture\n[C10H160]",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.542",
-    "Refractive Index Range": "+/- .003",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Amorphous Single",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "*",
-    "Pleochroism M": "*",
-    "Pleochroism W": "*",
-    "Disp.": "0.013",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "LW: inert - strong\nSW: weaker",
-    "Specific Gravity": "1.08\n+/- .02",
-    "Phenomena": "",
-    "Characteristics": "Anomalous double refraction, sometimes contains preserved insects",
-    "Fracture/Cleavage": "FR: resinous conchoidal",
-    "Hardness": "2 - 2.5",
-    "__colors": [
-      "C",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown"
-    ]
-  },
-  {
-    "Species": "Chalcedony",
-    "Chemical Comp.": "Silicon Dioxide\n[SiO2]",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "*",
-    "Color G 2": "",
-    "Color B 3": "black",
-    "Transp.": "STP-O",
-    "Refractive Index Normal": "1.539",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "AGG",
-    "Crystal System": "Trigonal aggregate",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "*",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "*",
-    "Disp.": "0.01",
-    "Spectra (nm)": "Dyed green and dyed blue (**)",
-    "UV Fluorescence": "LW & SW: inert -\nmoderate",
-    "Specific Gravity": "2.60\n+/- .05",
-    "Phenomena": "I",
-    "Characteristics": "",
-    "Fracture/Cleavage": "FR: dull to waxy conchoidal to\nuneven",
-    "Hardness": "6 - 6.5",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "W",
-      "black"
-    ]
-  },
-  {
-    "Species": "Microcline\n(Potassium Feldspar)",
-    "Chemical Comp.": "Potassium Aluminum\nSilicate\n[KAlSi3O8]",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "*",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "TL-O",
-    "Refractive Index Normal": "1.522-\n1.530",
-    "Refractive Index Range": "+/- .004",
-    "Refractive Index Birefri.": "0.008",
-    "Optic Character": "DR B- or AGG",
-    "Crystal System": "Triclinic double",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "LW: inert - weak\nSW: inert",
-    "Specific Gravity": "2.56\n+/- .01",
-    "Phenomena": "Aventurescence",
-    "Characteristics": "",
-    "Fracture/Cleavage": "FR: uneven to splintery\nCL: 1 perfect, 1 distinct",
-    "Hardness": "6 - 6.5",
-    "__colors": [
-      "C",
-      "green",
-      "blue",
-      "W"
-    ]
-  },
-  {
-    "Species": "Orthoclase\n(Potassium Feldspar)",
-    "Chemical Comp.": "Potassium Aluminum\nSilicate\n[KAlSi3O8]",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "*",
-    "Color G 2": "gray",
-    "Color B 3": "",
-    "Transp.": "STP-O",
-    "Refractive Index Normal": "1.518-\n1.526",
-    "Refractive Index Range": "+.010",
-    "Refractive Index Birefri.": "0.008",
-    "Optic Character": "DR B-",
-    "Crystal System": "Monoclinic double",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "Yellow material (**)",
-    "UV Fluorescence": "LW & SW: inert - weak",
-    "Specific Gravity": "2.56\n+/- .01",
-    "Phenomena": "A, Ad, C",
-    "Characteristics": "Milky bluish sheen",
-    "Fracture/Cleavage": "FR: uneven to splintery\nCL: 1 perfect, 1 distinct",
-    "Hardness": "6 - 6.5",
-    "__colors": [
-      "C",
-      "yellow",
-      "green",
-      "brown",
-      "W",
-      "gray"
-    ]
-  },
-  {
-    "Species": "Oligoclase\n(Plagioclase\nFeldspar)",
-    "Chemical Comp.": "Potassium Aluminum\nSilicate\n[KAlSi3O8]",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "",
-    "Transp.": "TP-STL",
-    "Refractive Index Normal": "1.532-\n1.542",
-    "Refractive Index Range": "+/- .007",
-    "Refractive Index Birefri.": "0.01",
-    "Optic Character": "DR B- or AGG",
-    "Crystal System": "Triclinic double",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "LW & SW: inert - weak",
-    "Specific Gravity": "2.65\n+/- .02",
-    "Phenomena": "Av",
-    "Characteristics": "Platy reddish color inclusions",
-    "Fracture/Cleavage": "FR: uneven to splintery\nCL: 1 perfect, 1 distinct",
-    "Hardness": "6 - 6.5",
-    "__colors": [
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "brown",
-      "gray"
-    ]
-  },
-  {
-    "Species": "Lapis-Lazuli",
-    "Chemical Comp.": "Calcium Sodium\nCalcium Aluminosilicate",
-    "Color C": "",
-    "Color P": "",
-    "Color R": "",
-    "Color O": "",
-    "Color Y": "",
-    "Color G": "",
-    "Color B": "blue",
-    "Color V": "",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "",
-    "Color B 3": "",
-    "Transp.": "STL-O",
-    "Refractive Index Normal": "1.50 Lapis,\n1.67 Calcite",
-    "Refractive Index Range": "due to\ncalcite intergrowth",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "",
-    "Crystal System": "Cubic opaque",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "*",
-    "Disp.": "0.012",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "LW & SW: inert -\nmoderate",
-    "Specific Gravity": "2.75\n+/- .25",
-    "Phenomena": "",
-    "Characteristics": "Small metallic inclusions of pyrite, dull granular luster, rotten egg odor\nfrom acid",
-    "Fracture/Cleavage": "FR: granular to uneven",
-    "Hardness": "5 - 6",
-    "__colors": [
-      "blue"
-    ]
-  },
-  {
-    "Species": "Obsidian",
-    "Chemical Comp.": "Rhyolite Glass\n[SiO2]",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.49",
-    "Refractive Index Range": "+ 0.01\n - 0.02",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Amorphous Single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "",
-    "Specific Gravity": "2.45\n+/- .10",
-    "Phenomena": "I, C (rare)",
-    "Characteristics": "A natural glass, sometimes with needle like inclusions",
-    "Fracture/Cleavage": "FR: conchoidal",
-    "Hardness": "5 - 5.5",
-    "__colors": [
-      "C",
-      "red",
-      "yellow",
-      "green",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Flourite",
-    "Chemical Comp.": "Calcium Fluoride\n[CaF2]",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP-TL",
-    "Refractive Index Normal": "1.434",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR or AGG",
-    "Crystal System": "Cubic single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "Green material (*)",
-    "UV Fluorescence": "LW: inert - strong\nSW: weaker",
-    "Specific Gravity": "3.18\n+/- .01",
-    "Phenomena": "CC",
-    "Characteristics": "Good cleavage usually evident when chipped, sometimes used for\ncarving",
-    "Fracture/Cleavage": "CL: 4 perfect; step-like break",
-    "Hardness": "4",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Calcite",
-    "Chemical Comp.": "Calcium Carbonate\n[CaCO3]",
-    "Color C": "*",
-    "Color P": "",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "",
-    "Color B 2": "brown",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.486-\n1.685",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": ".172 BB",
-    "Optic Character": "DR U- or AGG",
-    "Crystal System": "Trigonal double",
-    "Pleochroism 2": "*",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "*",
-    "Disp.": "",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "LW & SW: inert -\nmoderate",
-    "Specific Gravity": "2.7",
-    "Phenomena": "Fluor.\nChatoyancy",
-    "Characteristics": "High birefringence, soft material attacked by acid, can be dyed to\nresemble jade",
-    "Fracture/Cleavage": "FR: uneven to granular\nCL: 3 perfect",
-    "Hardness": "3",
-    "__colors": [
-      "C",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "brown",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Opal",
-    "Chemical Comp.": "Silicon Dioxide w\\\nWater",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "",
-    "Color W": "",
-    "Color G 2": "gray",
-    "Color B 3": "",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "1.45",
-    "Refractive Index Range": "+ 0.020\n - 0.080",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Amorphous Single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "",
-    "UV Fluorescence": "LW & SW: inert - strong\n(may phosphoresce)",
-    "Specific Gravity": "2.15\n+/- .02",
-    "Phenomena": "P, A, C (rare)",
-    "Characteristics": "May appear without play of color",
-    "Fracture/Cleavage": "FR: subvitreous to waxy\nconchoidal",
-    "Hardness": "5 - 6.5",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "gray"
-    ]
-  },
-  {
-    "Species": "Glass",
-    "Chemical Comp.": "Silicon Dioxide\n[SiO2]",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "*",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "varies",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Amorphous Single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "Variable",
-    "UV Fluorescence": "LW & SW: inert - strong",
-    "Specific Gravity": "2.30\n+/- .45",
-    "Phenomena": "A, Ad, Av, C, CC, I, O, P",
-    "Characteristics": "Usually contains donut shaped gas bubbles, flow lines",
-    "Fracture/Cleavage": "FR: even conchoidal",
-    "Hardness": "5 - 6.5",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "W",
-      "gray",
-      "black"
-    ]
-  },
-  {
-    "Species": "Plastic",
-    "Chemical Comp.": "",
-    "Color C": "*",
-    "Color P": "purple",
-    "Color R": "red",
-    "Color O": "orange",
-    "Color Y": "yellow",
-    "Color G": "green",
-    "Color B": "blue",
-    "Color V": "violet",
-    "Color B 2": "brown",
-    "Color W": "*",
-    "Color G 2": "gray",
-    "Color B 3": "black",
-    "Transp.": "TP-O",
-    "Refractive Index Normal": "varies",
-    "Refractive Index Range": "",
-    "Refractive Index Birefri.": "",
-    "Optic Character": "SR",
-    "Crystal System": "Amorphous Single",
-    "Pleochroism 2": "",
-    "Pleochroism 3": "",
-    "Pleochroism S": "",
-    "Pleochroism M": "",
-    "Pleochroism W": "",
-    "Disp.": "",
-    "Spectra (nm)": "Variable",
-    "UV Fluorescence": "LW & SW: inert - strong",
-    "Specific Gravity": "1.30\n+/- .25",
-    "Phenomena": "A, Ad, Av, C, O, P",
-    "Characteristics": "Usually contains donut shaped gas bubbles, flow lines; acid odor from\nthermal point",
-    "Fracture/Cleavage": "FR: dull to vitreous conchoidal\nto uneven",
-    "Hardness": "2.5 - 3",
-    "__colors": [
-      "C",
-      "purple",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "brown",
-      "W",
-      "gray",
-      "black"
-    ]
-  }
+const STORAGE_KEY = 'gem-search-user-gems-v1';
+const STORAGE_TEST_KEY = 'gem-search-storage-test';
+const primaryFields = window.FIELD_GROUPS.primary;
+const notesFields = window.FIELD_GROUPS.notes;
+const allFields = window.FIELD_GROUPS.all;
+const baseGems = window.GEM_DATA || [];
+const $ = (id) => document.getElementById(id);
+const normalize = (v) => String(v ?? '').toLowerCase().replace(/\s+/g,' ').trim();
+
+const COLOR_FIELDS = [
+  { field:'Color C', label:'C', value:'clear', css:'clear' },
+  { field:'Color P', label:'P', value:'purple', css:'purple' },
+  { field:'Color R', label:'R', value:'red', css:'red' },
+  { field:'Color O', label:'O', value:'orange', css:'orange' },
+  { field:'Color Y', label:'Y', value:'yellow', css:'yellow' },
+  { field:'Color G', label:'G', value:'green', css:'green' },
+  { field:'Color B', label:'B', value:'blue', css:'blue' },
+  { field:'Color V', label:'V', value:'violet', css:'violet' },
+  { field:'Color B 2', label:'Br', value:'brown', css:'brown' },
+  { field:'Color W', label:'W', value:'white', css:'white' },
+  { field:'Color G 2', label:'Gy', value:'gray', css:'gray' },
+  { field:'Color B 3', label:'Bk', value:'black', css:'black' }
 ];
-window.ERRATA_DATA = [
-  {
-    "Column": "Transparency",
-    "Species": "Hematite",
-    "Updated Field": "Transp.",
-    "Value": "O",
-    "Index": "TP"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Syn. Rutile",
-    "Updated Field": "Transp.",
-    "Value": "TP",
-    "Index": "STP"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Diamond",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": "O"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Cubic Zirconia",
-    "Updated Field": "Transp.",
-    "Value": "TP",
-    "Index": "TL"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "GGG",
-    "Updated Field": "Transp.",
-    "Value": "TP",
-    "Index": "STL"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "YAG",
-    "Updated Field": "Transp.",
-    "Value": "TP",
-    "Index": "AGG"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Strontium Titanate",
-    "Updated Field": "Transp.",
-    "Value": "TP",
-    "Index": "DR"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Zircon High",
-    "Updated Field": "Transp.",
-    "Value": "TP-STP",
-    "Index": "SR"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Andradite",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": "U +/-"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Zircon Low",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": "B +/-"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Spessartite",
-    "Updated Field": "Transp.",
-    "Value": "TP",
-    "Index": "A"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Zoisite",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": "C"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Almandite",
-    "Updated Field": "Transp.",
-    "Value": "TP-STL",
-    "Index": "CC"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Corundum",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": "AV"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Syn Corundum",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": "I"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Rhodolite",
-    "Updated Field": "Transp.",
-    "Value": "TP",
-    "Index": "Av"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Pyrope",
-    "Updated Field": "Transp.",
-    "Value": "TP",
-    "Index": "Ad"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Chrysoberyl",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": "P"
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Grossularite",
-    "Updated Field": "Transp.",
-    "Value": "TP-STL",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Syn. Spinel",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Spinel",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Diopside",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Jadeite",
-    "Updated Field": "Transp.",
-    "Value": "STP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Peridot",
-    "Updated Field": "Transp.",
-    "Value": "TP",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Spodumene",
-    "Updated Field": "Transp.",
-    "Value": "TP",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Malachite",
-    "Updated Field": "Transp.",
-    "Value": "O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Jet",
-    "Updated Field": "Transp.",
-    "Value": "STL-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Apatite",
-    "Updated Field": "Transp.",
-    "Value": "TP-TL",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Coral",
-    "Updated Field": "Transp.",
-    "Value": "STL-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Bone",
-    "Updated Field": "Transp.",
-    "Value": "TL-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Dental Ivory",
-    "Updated Field": "Transp.",
-    "Value": "TL-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Pearl",
-    "Updated Field": "Transp.",
-    "Value": "TL-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Shell",
-    "Updated Field": "Transp.",
-    "Value": "TL-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Andalusite",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Tourmaline",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Topaz",
-    "Updated Field": "Transp.",
-    "Value": "TP",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Turquoise",
-    "Updated Field": "Transp.",
-    "Value": "STL-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Nephrite",
-    "Updated Field": "Transp.",
-    "Value": "TL-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Beryl",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Syn Emerald",
-    "Updated Field": "Transp.",
-    "Value": "TP",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Serpentine",
-    "Updated Field": "Transp.",
-    "Value": "STP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Labradorite",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Quartz",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Iolite",
-    "Updated Field": "Transp.",
-    "Value": "TP-TL",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Amber",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Chalcedony",
-    "Updated Field": "Transp.",
-    "Value": "STP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Microcline",
-    "Updated Field": "Transp.",
-    "Value": "TL-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Orthoclase",
-    "Updated Field": "Transp.",
-    "Value": "STP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Oligoclase",
-    "Updated Field": "Transp.",
-    "Value": "TP-STL",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Lapis-Lazuli",
-    "Updated Field": "Transp.",
-    "Value": "STL-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Obsidian",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Fluorite",
-    "Updated Field": "Transp.",
-    "Value": "TP-TL",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Calcite",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Opal",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Glass",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Transparency",
-    "Species": "Plastic",
-    "Updated Field": "Transp.",
-    "Value": "TP-O",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Hematite",
-    "Updated Field": "Optic Character",
-    "Value": "AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Syn. Rutile",
-    "Updated Field": "Optic Character",
-    "Value": "DR U+",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Diamond",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Cubic Zirconia",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "GGG",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "YAG",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Strontium Titanate",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Zircon High",
-    "Updated Field": "Optic Character",
-    "Value": "DR U+",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Andradite",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Zircon Low",
-    "Updated Field": "Optic Character",
-    "Value": "DR U+",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Spessartite",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Zoisite",
-    "Updated Field": "Optic Character",
-    "Value": "DR B+ or AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Almandite",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Corundum",
-    "Updated Field": "Optic Character",
-    "Value": "DR U-",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Syn Corundum",
-    "Updated Field": "Optic Character",
-    "Value": "DR U-",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Rhodolite",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Pyrope",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Chrysoberyl",
-    "Updated Field": "Optic Character",
-    "Value": "DR B+",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Grossularite",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Syn. Spinel",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Spinel",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Diopside",
-    "Updated Field": "Optic Character",
-    "Value": "DR B+ or AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Jadeite",
-    "Updated Field": "Optic Character",
-    "Value": "AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Peridot",
-    "Updated Field": "Optic Character",
-    "Value": "DR B+",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Spodumene",
-    "Updated Field": "Optic Character",
-    "Value": "DR B+",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Malachite",
-    "Updated Field": "Optic Character",
-    "Value": "AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Jet",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Apatite",
-    "Updated Field": "Optic Character",
-    "Value": "DR U-",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Coral",
-    "Updated Field": "Optic Character",
-    "Value": "AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Bone",
-    "Updated Field": "Optic Character",
-    "Value": "AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Dental Ivory",
-    "Updated Field": "Optic Character",
-    "Value": "AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Pearl",
-    "Updated Field": "Optic Character",
-    "Value": "AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Shell",
-    "Updated Field": "Optic Character",
-    "Value": "AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Andalusite",
-    "Updated Field": "Optic Character",
-    "Value": "DR B- or AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Tourmaline",
-    "Updated Field": "Optic Character",
-    "Value": "DR U-",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Topaz",
-    "Updated Field": "Optic Character",
-    "Value": "DR B+",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Turquoise",
-    "Updated Field": "Optic Character",
-    "Value": "AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Nephrite",
-    "Updated Field": "Optic Character",
-    "Value": "AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Beryl",
-    "Updated Field": "Optic Character",
-    "Value": "DR U-",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Syn Emerald",
-    "Updated Field": "Optic Character",
-    "Value": "DR U-",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Serpentine",
-    "Updated Field": "Optic Character",
-    "Value": "AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Labradorite",
-    "Updated Field": "Optic Character",
-    "Value": "DR B+",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Quartz",
-    "Updated Field": "Optic Character",
-    "Value": "DR U+ or AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Iolite",
-    "Updated Field": "Optic Character",
-    "Value": "DR B-",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Amber",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Chalcedony",
-    "Updated Field": "Optic Character",
-    "Value": "AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Microcline",
-    "Updated Field": "Optic Character",
-    "Value": "DR B- or AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Orthoclase",
-    "Updated Field": "Optic Character",
-    "Value": "DR B-",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Oligoclase",
-    "Updated Field": "Optic Character",
-    "Value": "DR B- or AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Lapis-Lazuli",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Obsidian",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Fluorite",
-    "Updated Field": "Optic Character",
-    "Value": "SR or AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Calcite",
-    "Updated Field": "Optic Character",
-    "Value": "DR U- or AGG",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Opal",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Glass",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Optic Character",
-    "Species": "Plastic",
-    "Updated Field": "Optic Character",
-    "Value": "SR",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Zircon High",
-    "Updated Field": "Phenomena",
-    "Value": "C",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Zircon Low",
-    "Updated Field": "Phenomena",
-    "Value": "C",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Andradite",
-    "Updated Field": "Phenomena",
-    "Value": "C (rare)",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Almandite",
-    "Updated Field": "Phenomena",
-    "Value": "A",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Corundum",
-    "Updated Field": "Phenomena",
-    "Value": "A, CC, C (rare)",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Syn Corundum",
-    "Updated Field": "Phenomena",
-    "Value": "A, CC, C (rare)",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Chrysoberyl",
-    "Updated Field": "Phenomena",
-    "Value": "C, CC",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Syn. Spinel",
-    "Updated Field": "Phenomena",
-    "Value": "CC",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Spinel",
-    "Updated Field": "Phenomena",
-    "Value": "CC, A (rare)",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Zoisite",
-    "Updated Field": "Phenomena",
-    "Value": "C (rare)",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Diopside",
-    "Updated Field": "Phenomena",
-    "Value": "A, C",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Malachite",
-    "Updated Field": "Phenomena",
-    "Value": "A (occasionally in light fibrous areas)",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Tourmaline",
-    "Updated Field": "Phenomena",
-    "Value": "C, CC (rare)",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Beryl",
-    "Updated Field": "Phenomena",
-    "Value": "C, A (rare)",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Labradorite",
-    "Updated Field": "Phenomena",
-    "Value": "Av, L, A, C (rare)",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Quartz",
-    "Updated Field": "Phenomena",
-    "Value": "A, Av, C, I",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Iolite",
-    "Updated Field": "Phenomena",
-    "Value": "A, Av, C (rare)",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Oligoclase",
-    "Updated Field": "Phenomena",
-    "Value": "Av",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Chalcedony",
-    "Updated Field": "Phenomena",
-    "Value": "I",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Pearl",
-    "Updated Field": "Phenomena",
-    "Value": "O",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Shell",
-    "Updated Field": "Phenomena",
-    "Value": "O",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Orthoclase",
-    "Updated Field": "Phenomena",
-    "Value": "A, Ad, C",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Obsidian",
-    "Updated Field": "Phenomena",
-    "Value": "I, C (rare)",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Opal",
-    "Updated Field": "Phenomena",
-    "Value": "P, A, C (rare)",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Glass",
-    "Updated Field": "Phenomena",
-    "Value": "A, Ad, Av, C, CC, I, O, P",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Plastic",
-    "Updated Field": "Phenomena",
-    "Value": "A, Ad, Av, C, O, P",
-    "Index": ""
-  },
-  {
-    "Column": "Phenomena",
-    "Species": "Fluorite",
-    "Updated Field": "Phenomena",
-    "Value": "CC",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Grossularite",
-    "Updated Field": "Refractive Index - Normal",
-    "Value": "1.74",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Grossularite",
-    "Updated Field": "Refractive Index - Range",
-    "Value": "+.020\n-.010",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Spinel",
-    "Updated Field": "Refractive Index - Range",
-    "Value": "+.017\n-.008",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Diopside",
-    "Updated Field": "Refractive Index - Normal",
-    "Value": "1.675-\n1.701\n1.68",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Jadeite",
-    "Updated Field": "Refractive Index - Range",
-    "Value": "+/- .008",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Malachite",
-    "Updated Field": "Refractive Index - Birefri.",
-    "Value": ".254 BB",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Jet",
-    "Updated Field": "Refractive Index - Range",
-    "Value": "+/- .02",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Coral",
-    "Updated Field": "Refractive Index - Birefri.",
-    "Value": ".172 BB",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Dental Ivory",
-    "Updated Field": "Refractive Index - Range",
-    "Value": "-.005",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Pearl",
-    "Updated Field": "Refractive Index - Birefri.",
-    "Value": ".155 BB",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Shell",
-    "Updated Field": "Refractive Index - Birefri.",
-    "Value": "1.55 BB",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Tourmaline",
-    "Updated Field": "Refractive Index - Birefri.",
-    "Value": "0.02 - 0.04",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Topaz",
-    "Updated Field": "Refractive Index - Birefri.",
-    "Value": "0.007 - 0.010",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Nephrite",
-    "Updated Field": "Refractive Index - Normal",
-    "Value": "1.606-\n1.65\nblack 1.63",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Syn Emerald",
-    "Updated Field": "Refractive Index - Normal",
-    "Value": "1.561-\n1.573",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Syn Emerald",
-    "Updated Field": "Refractive Index - Range",
-    "Value": "+.008\n-.003",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Microcline",
-    "Updated Field": "Refractive Index - Range",
-    "Value": "+/- .004",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Orthoclase",
-    "Updated Field": "Refractive Index - Range",
-    "Value": "+.010",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Lapis-Lazuli",
-    "Updated Field": "Refractive Index - Normal",
-    "Value": "1.50 Lapis,\n1.67 Calcite",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Obsidian",
-    "Updated Field": "Refractive Index - Normal",
-    "Value": "1.49",
-    "Index": ""
-  },
-  {
-    "Column": "Refractive Index",
-    "Species": "Calcite",
-    "Updated Field": "Refractive Index - Birefri.",
-    "Value": ".172 BB",
-    "Index": ""
-  }
+const COLOR_FIELD_SET = new Set(COLOR_FIELDS.map(c => c.field));
+const COLOR_BY_FIELD = Object.fromEntries(COLOR_FIELDS.map(c => [c.field, c]));
+const COLOR_BY_VALUE = Object.fromEntries(COLOR_FIELDS.map(c => [c.value, c]));
+const TRANSPARENCY_OPTIONS = [
+  { code:'O', label:'Opaque' },
+  { code:'STL', label:'Semi Translucent' },
+  { code:'TL', label:'Translucent' },
+  { code:'STP', label:'Semi Transparent' },
+  { code:'TP', label:'Transparent' }
 ];
-window.FIELD_GROUPS = {
-  "primary": [
-    "Species",
-    "Chemical Comp.",
-    "Color C",
-    "Color P",
-    "Color R",
-    "Color O",
-    "Color Y",
-    "Color G",
-    "Color B",
-    "Color V",
-    "Color B 2",
-    "Color W",
-    "Color G 2",
-    "Color B 3",
-    "Transp.",
-    "Refractive Index Normal",
-    "Refractive Index Range",
-    "Refractive Index Birefri.",
-    "Optic Character",
-    "Crystal System",
-    "Pleochroism 2",
-    "Pleochroism 3",
-    "Pleochroism S",
-    "Pleochroism M",
-    "Pleochroism W",
-    "Disp.",
-    "Specific Gravity",
-    "Hardness"
-  ],
-  "notes": [
-    "Spectra (nm)",
-    "UV Fluorescence",
-    "Phenomena",
-    "Characteristics",
-    "Fracture/Cleavage"
-  ],
-  "all": [
-    "Species",
-    "Chemical Comp.",
-    "Color C",
-    "Color P",
-    "Color R",
-    "Color O",
-    "Color Y",
-    "Color G",
-    "Color B",
-    "Color V",
-    "Color B 2",
-    "Color W",
-    "Color G 2",
-    "Color B 3",
-    "Transp.",
-    "Refractive Index Normal",
-    "Refractive Index Range",
-    "Refractive Index Birefri.",
-    "Optic Character",
-    "Crystal System",
-    "Pleochroism 2",
-    "Pleochroism 3",
-    "Pleochroism S",
-    "Pleochroism M",
-    "Pleochroism W",
-    "Disp.",
-    "Spectra (nm)",
-    "UV Fluorescence",
-    "Specific Gravity",
-    "Phenomena",
-    "Characteristics",
-    "Fracture/Cleavage",
-    "Hardness"
-  ]
-};
+const SUBTITLE_FILE = 'subtitles.txt';
+const SUBTITLE_ROTATION_MS = 6500;
+
+function storageAvailable(){
+  try{
+    localStorage.setItem(STORAGE_TEST_KEY, '1');
+    localStorage.removeItem(STORAGE_TEST_KEY);
+    return true;
+  }catch(err){
+    return false;
+  }
+}
+const canStore = storageAvailable();
+let memoryGems = [];
+function userGems(){
+  if(!canStore) return memoryGems;
+  try{
+    const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+    return Array.isArray(parsed) ? parsed : [];
+  }catch(err){
+    console.warn('Saved gem data could not be read. Backing it up and starting fresh.', err);
+    const bad = localStorage.getItem(STORAGE_KEY);
+    if(bad) localStorage.setItem(`${STORAGE_KEY}-corrupt-${Date.now()}`, bad);
+    localStorage.removeItem(STORAGE_KEY);
+    return [];
+  }
+}
+function saveUserGems(items){
+  const cleanItems = Array.isArray(items) ? items : [];
+  if(!canStore){
+    memoryGems = cleanItems;
+    return false;
+  }
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(cleanItems));
+  return true;
+}
+const gems = () => [...baseGems, ...userGems().map(g => ({...g, __user:true}))];
+function searchable(rec, fields){ return fields.map(f => rec[f] || '').join(' '); }
+function parseNum(s){ const m=String(s||'').match(/\d+(?:\.\d+)?/); return m ? Number(m[0]) : -Infinity; }
+function parseNumberList(value){
+  return String(value || '').match(/\d+(?:\.\d+)?/g)?.map(Number) || [];
+}
+function parseSearchNumber(value){
+  const text = normalize(value);
+  if(!/^\d+(?:\.\d+)?$/.test(text)) return null;
+  return Number(text);
+}
+function refractiveIndexValues(rec){
+  return parseNumberList(rec['Refractive Index Normal'] || '');
+}
+function refractiveIndexMatches(rec, queryNumber){
+  if(queryNumber === null) return false;
+  const values = refractiveIndexValues(rec);
+  if(!values.length) return false;
+  const low = Math.min(...values);
+  const high = Math.max(...values);
+  const tolerance = 0.0005;
+  return queryNumber >= low - tolerance && queryNumber <= high + tolerance;
+}
+function refractiveIndexSortValue(rec){
+  const values = parseNumberList(rec['Refractive Index Range'] || rec['Refractive Index Normal']);
+  if(!values.length) return { high:-Infinity, low:-Infinity };
+  return { high:Math.max(...values), low:Math.min(...values) };
+}
+function parseSignedDecimal(value){
+  const match = String(value || '').match(/[+-]?\s*(?:\d+(?:\.\d+)?|\.\d+)/);
+  return match ? Number(match[0].replace(/\s+/g, '')) : null;
+}
+function parseSpecificGravityRange(value){
+  const text = String(value || '').replace(/−/g, '-');
+  const baseMatch = text.match(/(?:\d+(?:\.\d+)?|\.\d+)/);
+  if(!baseMatch) return null;
+  const base = Number(baseMatch[0]);
+  const afterBase = text.slice(baseMatch.index + baseMatch[0].length);
+  const directRangeMatch = afterBase.match(/^\s*(?:-|to|–|—)\s*((?:\d+(?:\.\d+)?|\.\d+))/i);
+  if(directRangeMatch){
+    const high = Number(directRangeMatch[1]);
+    if(high >= base) return { base, low:base, high, plus:high - base, minus:0 };
+  }
+  let plus = 0, minus = 0;
+  const pmMatch = afterBase.match(/(?:\+\s*\/\s*-|±|\+\/-)\s*((?:\d+(?:\.\d+)?|\.\d+))/i);
+  if(pmMatch){
+    plus = minus = Number(pmMatch[1]);
+  }else{
+    const plusMatch = afterBase.match(/\+\s*((?:\d+(?:\.\d+)?|\.\d+))/);
+    const minusMatch = afterBase.match(/-\s*((?:\d+(?:\.\d+)?|\.\d+))/);
+    plus = plusMatch ? Number(plusMatch[1]) : 0;
+    minus = minusMatch ? Number(minusMatch[1]) : 0;
+  }
+  return { base, low:base - minus, high:base + plus, plus, minus };
+}
+function rangesOverlap(aLow, aHigh, bLow, bHigh){
+  const tolerance = 0.0005;
+  return aLow <= bHigh + tolerance && aHigh >= bLow - tolerance;
+}
+function parseSpecificGravitySearch(value){
+  const text = String(value || '').replace(/−/g, '-').trim();
+  if(!text) return null;
+  const numberMatches = [...text.matchAll(/(?:\d+(?:\.\d+)?|\.\d+)/g)];
+  if(!numberMatches.length) return null;
+
+  const nums = numberMatches.map(match => Number(match[0]));
+  const target = nums[0];
+  if(nums.length === 1){
+    return { target, variation:0, low:target, high:target };
+  }
+
+  const betweenFirstTwo = text.slice(numberMatches[0].index + numberMatches[0][0].length, numberMatches[1].index);
+  // A simple hyphenated pair like 3.50-3.54 is treated as a direct range.
+  if(/-/.test(betweenFirstTwo) && nums[1] >= nums[0]){
+    return { target, variation:null, low:nums[0], high:nums[1] };
+  }
+
+  // Explicit gemological variation formats: 3.52 +/- .02, 3.52 ± .02, 3.78 + .04 - .16
+  if(/(?:\+\s*\/\s*-|±|\+\/-|\+|-)\s*(?:\d|\.)/.test(text.slice(numberMatches[0].index + numberMatches[0][0].length))){
+    const parsed = parseSpecificGravityRange(text);
+    return parsed ? { target:parsed.base, variation:null, low:parsed.low, high:parsed.high } : null;
+  }
+
+  // Otherwise, the second number is the +/- variation from the first number.
+  const variation = Math.abs(nums[1]);
+  return { target, variation, low:target - variation, high:target + variation };
+}
+function specificGravityQuery(){
+  const valueInput = $('sgSearch');
+  if(!valueInput) return null;
+  return parseSpecificGravitySearch(valueInput.value);
+}
+function specificGravityMatches(rec, query){
+  if(!query) return false;
+  const range = parseSpecificGravityRange(rec['Specific Gravity']);
+  if(!range) return false;
+  return rangesOverlap(query.low, query.high, range.low, range.high);
+}
+function formatSpecificGravity(base, variation){
+  const cleanBase = String(base || '').trim();
+  const cleanVariation = String(variation || '').trim();
+  if(!cleanBase) return '';
+  return cleanVariation ? `${cleanBase}
++/- ${cleanVariation}` : cleanBase;
+}
+function showToast(msg){ const t=$('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2600); }
+function esc(s){ return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c])); }
+function fieldHTML(label, value){ if(!value) return ''; return `<div class="field"><div class="label">${esc(label)}</div><div class="value">${esc(value)}</div></div>`; }
+
+function colorMetaFromName(name){
+  const clean = normalize(name);
+  if(!clean) return null;
+  return COLOR_BY_VALUE[clean] || { field:null, label:name, value:clean, css:clean.replace(/[^a-z0-9]+/g,'-') };
+}
+function colorMetaFromRecord(rec){
+  const fields = COLOR_FIELDS.filter(meta => rec[meta.field]);
+  if(fields.length) return fields;
+  return (rec.__colors || []).map(colorMetaFromName).filter(Boolean);
+}
+function swatchHTML(meta, large=false){
+  const title = meta.value ? `${meta.label}: ${meta.value}` : meta.label;
+  return `<span class="swatch swatch-${esc(meta.css)}${large?' swatch-large':''}" title="${esc(title)}" aria-label="${esc(title)}">${esc(meta.label)}</span>`;
+}
+
+function splitValueList(value){
+  return String(value || '')
+    .split(/[\n,;/]+/)
+    .map(v => v.replace(/\s+/g, ' ').trim())
+    .filter(Boolean);
+}
+function transparencyCodesFromRecord(rec){
+  return String(rec['Transp.'] || '')
+    .split(/[^A-Za-z]+/)
+    .map(v => v.trim().toUpperCase())
+    .filter(Boolean);
+}
+function colorValuesFromRecord(rec){
+  return colorMetaFromRecord(rec).map(meta => normalize(meta.value)).filter(Boolean);
+}
+function crystalSystemsFromRecord(rec){
+  return splitValueList(rec['Crystal System']).map(normalize).filter(Boolean);
+}
+function filterOptionMatches(rec, group, value){
+  const clean = normalize(value);
+  if(group === 'transparency') return transparencyCodesFromRecord(rec).map(normalize).includes(clean);
+  if(group === 'color') return colorValuesFromRecord(rec).includes(clean);
+  if(group === 'crystal') return crystalSystemsFromRecord(rec).includes(clean);
+  return false;
+}
+function filterChoiceSelector(group, mode){
+  return `.filter-choice[data-group="${group}"][data-state="${mode}"]`;
+}
+function selectedFilterValues(group, mode){
+  return Array.from(document.querySelectorAll(filterChoiceSelector(group, mode))).map(btn => btn.dataset.value);
+}
+function groupPassesFilters(rec, group){
+  const include = selectedFilterValues(group, 'include');
+  const exclude = selectedFilterValues(group, 'exclude');
+  if(include.length && !include.some(value => filterOptionMatches(rec, group, value))) return false;
+  if(exclude.length && exclude.some(value => filterOptionMatches(rec, group, value))) return false;
+  return true;
+}
+function recordPassesMenuFilters(rec){
+  return ['transparency', 'color', 'crystal'].every(group => groupPassesFilters(rec, group));
+}
+function activeFilterCount(){
+  return document.querySelectorAll('#filterPanel .filter-choice[data-state="include"], #filterPanel .filter-choice[data-state="exclude"]').length;
+}
+function updateFilterSummary(){
+  const summary = $('filterMenu')?.querySelector('summary');
+  if(!summary) return;
+  const count = activeFilterCount();
+  summary.textContent = count ? `Filter / Exclude (${count})` : 'Filter / Exclude';
+}
+function setFilterChoiceState(btn, state){
+  btn.dataset.state = state;
+  btn.setAttribute('aria-pressed', state === 'none' ? 'false' : 'true');
+  const status = btn.querySelector('.filter-state');
+  if(status){
+    status.textContent = state === 'include' ? 'Filter' : state === 'exclude' ? 'Exclude' : '';
+  }
+}
+function clearFilters(){
+  document.querySelectorAll('#filterPanel .filter-choice').forEach(btn => setFilterChoiceState(btn, 'none'));
+  updateFilterSummary();
+  render();
+}
+function applyFilterChoice(btn, state){
+  setFilterChoiceState(btn, state);
+  updateFilterSummary();
+  render();
+}
+let filterTapTimer = null;
+function handleFilterChoiceClick(ev){
+  const btn = ev.currentTarget;
+  const now = Date.now();
+  const lastTap = Number(btn.dataset.lastTap || 0);
+  btn.dataset.lastTap = String(now);
+  if(now - lastTap < 320){
+    if(filterTapTimer) clearTimeout(filterTapTimer);
+    filterTapTimer = null;
+    applyFilterChoice(btn, btn.dataset.state === 'exclude' ? 'none' : 'exclude');
+    return;
+  }
+  if(filterTapTimer) clearTimeout(filterTapTimer);
+  filterTapTimer = setTimeout(() => {
+    filterTapTimer = null;
+    applyFilterChoice(btn, btn.dataset.state === 'include' ? 'none' : 'include');
+  }, 230);
+}
+function filterTileHTML(group, value, label, extra=''){
+  return `<button class="filter-tile filter-choice ${esc(extra)}" type="button" data-group="${esc(group)}" data-value="${esc(value)}" data-state="none" aria-pressed="false">
+    <span class="filter-main"><span>${esc(label)}</span></span><span class="filter-state" aria-hidden="true"></span>
+  </button>`;
+}
+function filterGroupHTML(group, title, options, optionRenderer){
+  const choices = options.map(opt => optionRenderer(group, opt)).join('');
+  return `<section class="filter-section">
+    <h3>${esc(title)}</h3>
+    <p class="filter-tip">Tap once to filter. Double-tap to exclude.</p>
+    <div class="filter-options single-filter-options">${choices}</div>
+  </section>`;
+}
+function buildFilterMenu(){
+  const panel = $('filterPanel');
+  if(!panel) return;
+  const current = {};
+  panel.querySelectorAll('.filter-choice').forEach(btn => {
+    if(btn.dataset.state && btn.dataset.state !== 'none') current[`${btn.dataset.group}:${btn.dataset.value}`] = btn.dataset.state;
+  });
+  const all = gems();
+  const crystalOptions = [...new Set(all.flatMap(crystalSystemsFromRecord))]
+    .filter(Boolean)
+    .sort((a,b)=>a.localeCompare(b))
+    .map(value => ({ value, label:value.replace(/\b\w/g, c => c.toUpperCase()) }));
+  const transparencyOptions = TRANSPARENCY_OPTIONS.map(opt => ({ value:opt.code, label:`${opt.code} — ${opt.label}` }));
+  const colorOptions = COLOR_FIELDS.map(meta => ({ value:meta.value, label:meta.value, meta }));
+  panel.innerHTML = `<div class="filter-head"><div><h2>Filter results</h2><p>One set of buttons per category: tap once to filter by a value, double-tap to exclude it.</p></div><button class="btn ghost" type="button" id="clearFilters">Clear</button></div>
+    <div class="filter-body">
+      ${filterGroupHTML('transparency', 'Transparency', transparencyOptions, (group, opt) => filterTileHTML(group, opt.value, opt.label, 'transp-filter-tile'))}
+      ${filterGroupHTML('color', 'Color', colorOptions, (group, opt) => `<button class="filter-tile filter-choice color-filter-tile" type="button" data-group="${esc(group)}" data-value="${esc(opt.value)}" data-state="none" aria-pressed="false"><span class="filter-main">${swatchHTML(opt.meta)}<span>${esc(opt.label)}</span></span><span class="filter-state" aria-hidden="true"></span></button>`)}
+      ${filterGroupHTML('crystal', 'Crystal System', crystalOptions, (group, opt) => filterTileHTML(group, opt.value, opt.label, 'crystal-filter-tile'))}
+    </div>
+    <div class="filter-actions"><button class="btn primary" type="button" id="doneFilters">Done</button></div>`;
+  panel.querySelectorAll('.filter-choice').forEach(btn => {
+    setFilterChoiceState(btn, current[`${btn.dataset.group}:${btn.dataset.value}`] || 'none');
+    btn.addEventListener('click', handleFilterChoiceClick);
+  });
+  $('clearFilters')?.addEventListener('click', clearFilters);
+  $('doneFilters')?.addEventListener('click', () => { $('filterMenu').open = false; });
+  updateFilterSummary();
+}
+function render(){
+  const pq=normalize($('primarySearch').value), nq=normalize($('notesSearch').value), sort=$('sortSelect').value;
+  const riQuery = parseSearchNumber(pq);
+  const sgQuery = specificGravityQuery();
+  let list = gems().filter(rec => {
+    const pOk = !pq || normalize(searchable(rec, primaryFields)).includes(pq) || refractiveIndexMatches(rec, riQuery);
+    const sgOk = !sgQuery || specificGravityMatches(rec, sgQuery);
+    const nOk = !nq || normalize(searchable(rec, notesFields)).includes(nq);
+    const menuOk = recordPassesMenuFilters(rec);
+    return pOk && sgOk && nOk && menuOk;
+  });
+  updateFilterSummary();
+  list.sort((a,b)=> {
+    if(sort==='hardness') return parseNum(b.Hardness)-parseNum(a.Hardness) || String(a.Species).localeCompare(b.Species);
+    if(sort==='sg') return parseNum(b['Specific Gravity'])-parseNum(a['Specific Gravity']) || String(a.Species).localeCompare(b.Species);
+    if(sort==='riRange'){
+      const ar = refractiveIndexSortValue(a), br = refractiveIndexSortValue(b);
+      return br.high - ar.high || br.low - ar.low || String(a.Species).localeCompare(b.Species);
+    }
+    return String(a.Species||'').localeCompare(String(b.Species||''));
+  });
+  $('countPill').textContent = `${list.length} of ${gems().length} gems shown`;
+  const out=$('results');
+  if(!list.length){ out.innerHTML='<div class="empty">No gems match those searches.</div>'; return; }
+  out.innerHTML=list.map(rec=>{
+    const topFields=['Transp.','Refractive Index Normal','Refractive Index Range','Refractive Index Birefri.','Optic Character','Crystal System','Specific Gravity','Hardness','Disp.'];
+    const colorSwatches=colorMetaFromRecord(rec).map(c=>swatchHTML(c)).join('');
+    const notes=notesFields.map(f=>fieldHTML(f, rec[f])).join('') || '<p class="help">No notes entered.</p>';
+    return `<article class="card"><h2>${esc(rec.Species || 'Untitled gem')}${rec.__user?' <span class="pill">added</span>':''}</h2><div class="chem">${esc(rec['Chemical Comp.'] || '')}</div>${colorSwatches?`<div class="colors" aria-label="Gem colors">${colorSwatches}</div>`:''}<div class="fields">${topFields.map(f=>fieldHTML(f, rec[f])).join('')}</div><details class="notes"><summary>Notes fields</summary><div class="fields">${notes}</div></details></article>`;
+  }).join('');
+}
+function colorToggleHTML(meta){
+  return `<label class="toggle-tile color-toggle" title="${esc(meta.value)}">
+    <input type="checkbox" name="${esc(meta.field)}" value="${esc(meta.value)}">
+    ${swatchHTML(meta, true)}
+    <span>${esc(meta.value)}</span>
+  </label>`;
+}
+function transparencyToggleHTML(opt, name='Transp.'){
+  return `<label class="toggle-tile transp-toggle" title="${esc(opt.label)}">
+    <input type="radio" name="${esc(name)}" value="${esc(opt.code)}">
+    <span class="transp-code">${esc(opt.display || opt.code || '—')}</span>
+    <span>${esc(opt.label)}</span>
+  </label>`;
+}
+function transparencyGroupHTML(title, name, allowNone=false){
+  const none = allowNone ? [{ code:'', label:'None' }] : [];
+  const options = none.concat(TRANSPARENCY_OPTIONS);
+  return `<div class="transp-group"><h3>${esc(title)}</h3><div class="toggle-grid transp-toggle-grid">${options.map(opt => transparencyToggleHTML(opt, name)).join('')}</div></div>`;
+}
+function buildForm(){
+  const holder=$('formFields');
+  const preferred=['Species','Chemical Comp.','Color C','Color P','Color R','Color O','Color Y','Color G','Color B','Color V','Color B 2','Color W','Color G 2','Color B 3','Transp.','Refractive Index Normal','Refractive Index Range','Refractive Index Birefri.','Optic Character','Crystal System','Specific Gravity','Pleochroism 2','Pleochroism 3','Pleochroism S','Pleochroism M','Pleochroism W','Disp.','Hardness','Spectra (nm)','UV Fluorescence','Phenomena','Characteristics','Fracture/Cleavage'];
+  const fields=[...new Set(preferred.filter(f=>allFields.includes(f)).concat(allFields.filter(f=>!preferred.includes(f))))];
+  const used = new Set();
+  const parts = ['<p class="help wide">Tip: colors and transparency are toggles. Notes fields are excluded from primary search and only searched by the notes box.</p>'];
+  for(const f of fields){
+    if(used.has(f)) continue;
+    if(COLOR_FIELD_SET.has(f)){
+      parts.push(`<fieldset class="wide toggle-field"><legend>Colors</legend><div class="toggle-grid color-toggle-grid">${COLOR_FIELDS.map(colorToggleHTML).join('')}</div><p class="help">C is clear. Br is brown, Gy is gray, and Bk is black.</p></fieldset>`);
+      COLOR_FIELDS.forEach(c => used.add(c.field));
+      continue;
+    }
+    if(f === 'Transp.'){
+      used.add(f);
+      parts.push(`<fieldset class="wide toggle-field transparency-field"><legend>Transparency</legend>${transparencyGroupHTML('Primary', '__TranspPrimary')}${transparencyGroupHTML('Secondary', '__TranspSecondary', true)}</fieldset>`);
+      continue;
+    }
+    if(f === 'Specific Gravity'){
+      used.add(f);
+      parts.push(`<fieldset class="wide toggle-field sg-add-field"><legend>Specific Gravity</legend><div class="sg-add-grid"><label><span>SG value</span><input name="__SpecificGravityBase" type="text" inputmode="decimal" placeholder="Example: 3.52"></label><label><span>Variation</span><input name="__SpecificGravityVariation" id="addSgVariation" type="text" inputmode="decimal" placeholder="Example: 0.02"></label><label class="none-tile sg-none-tile"><input type="checkbox" id="addSgVariationNone" name="__SpecificGravityNone" value="1"><span>No variation / None</span></label></div><p class="help">Saved as “SG value +/- variation”. Choose None when there is no second number.</p></fieldset>`);
+      continue;
+    }
+    used.add(f);
+    const wide = notesFields.includes(f) || f==='Chemical Comp.';
+    const tag = wide ? 'textarea' : 'input';
+    parts.push(`<label class="${wide?'wide':''}"><span>${esc(f)}</span><${tag} name="${esc(f)}" ${tag==='input'?'type="text"':''}></${tag}></label>`);
+  }
+  holder.innerHTML = parts.join('');
+}
+function addGemFromForm(ev){
+  ev.preventDefault(); const fd=new FormData(ev.target); const rec={};
+  const transpPrimary = String(fd.get('__TranspPrimary') || '').trim();
+  const transpSecondary = String(fd.get('__TranspSecondary') || '').trim();
+  const transpValue = transpPrimary && transpSecondary ? `${transpPrimary}-${transpSecondary}` : transpPrimary;
+  if(transpValue) rec['Transp.'] = transpValue;
+  const sgValue = formatSpecificGravity(fd.get('__SpecificGravityBase'), fd.get('__SpecificGravityNone') ? '' : fd.get('__SpecificGravityVariation'));
+  if(sgValue) rec['Specific Gravity'] = sgValue;
+  for(const f of allFields){
+    if(f === 'Transp.' || f === 'Specific Gravity') continue;
+    const v=String(fd.get(f)||'').trim();
+    if(v) rec[f]=v;
+  }
+  if(!rec.Species){ showToast('Species is required.'); return; }
+  rec.__colors = COLOR_FIELDS.filter(meta => rec[meta.field]).map(meta => meta.value);
+  const items=userGems(); items.push(rec); const saved=saveUserGems(items); ev.target.reset(); $('gemDialog').close(); buildFilterMenu(); render(); showToast(saved ? 'Gem saved locally.' : 'Gem added for this session only: browser storage is unavailable.');
+}
+function exportJSON(){
+  const blob = new Blob([JSON.stringify(gems(), null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='gem-search-data.json'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+}
+function rotateSubtitles(messages){
+  const subtitle = $('subtitle');
+  if(!subtitle || !messages.length) return;
+  let index = Math.floor(Math.random() * messages.length);
+  subtitle.textContent = messages[index];
+  if(messages.length < 2) return;
+  setInterval(() => {
+    let next = Math.floor(Math.random() * messages.length);
+    if(next === index) next = (next + 1) % messages.length;
+    index = next;
+    subtitle.textContent = messages[index];
+  }, SUBTITLE_ROTATION_MS);
+}
+async function loadSubtitles(){
+  const fallback = [$('subtitle')?.textContent || 'Local gem reference with separate primary and notes search.'];
+  try{
+    const response = await fetch(SUBTITLE_FILE, { cache:'no-cache' });
+    if(!response.ok) throw new Error(`Subtitle file returned ${response.status}`);
+    const text = await response.text();
+    const messages = text.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+    rotateSubtitles(messages.length ? messages : fallback);
+  }catch(err){
+    rotateSubtitles(fallback);
+  }
+}
+['primarySearch','notesSearch','sortSelect','sgSearch'].forEach(id=>$(id)?.addEventListener('input', render));
+$('addBtn').addEventListener('click', ()=>$('gemDialog').showModal()); $('closeDialog').addEventListener('click', ()=>$('gemDialog').close()); $('gemForm').addEventListener('submit', addGemFromForm); $('exportBtn').addEventListener('click', exportJSON);
+buildForm();
+$('addSgVariationNone')?.addEventListener('change', () => { const input = $('addSgVariation'); if(input){ input.disabled = $('addSgVariationNone').checked; if($('addSgVariationNone').checked) input.value = ''; } });
+$('gemForm')?.addEventListener('reset', () => setTimeout(() => { const input = $('addSgVariation'); if(input) input.disabled = false; }, 0));
+buildFilterMenu(); render(); loadSubtitles(); if(!canStore){ showToast('Browser storage is unavailable; added gems will not persist after closing this page.'); } if('serviceWorker' in navigator){ window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(()=>{})); }
